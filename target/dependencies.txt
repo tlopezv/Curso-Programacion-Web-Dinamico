@@ -1,0 +1,9 @@
+digraph "com.mycompany.web:intro-servlets:war:1.0-SNAPSHOT" { 
+	"com.mycompany.web:intro-servlets:war:1.0-SNAPSHOT" -> "jakarta.platform:jakarta.jakartaee-api:jar:9.0.0:provided" ; 
+	"com.mycompany.web:intro-servlets:war:1.0-SNAPSHOT" -> "org.glassfish.web:jakarta.servlet.jsp.jstl:jar:2.0.0:compile" ; 
+	"org.glassfish.web:jakarta.servlet.jsp.jstl:jar:2.0.0:compile" -> "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:2.0.0:compile" ; 
+	"jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:2.0.0:compile" -> "jakarta.servlet:jakarta.servlet-api:jar:5.0.0:compile" ; 
+	"jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:2.0.0:compile" -> "jakarta.el:jakarta.el-api:jar:4.0.0:compile" ; 
+	"jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:2.0.0:compile" -> "jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.0:compile" ; 
+	"jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.0:compile" -> "com.sun.activation:jakarta.activation:jar:2.0.0:compile" ; 
+ } 
